@@ -1,0 +1,103 @@
+body{
+    background-color:#0C0C0C ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+
+.card{
+    background-color:#202020;
+    /* width: 300px; */
+    padding: 8px;
+    border: 2px solid #050505;
+    border-radius: 20px;
+    
+}
+
+h1{
+text-align: center;
+font-size: 25px;
+color:aliceblue;
+font-family: "Fredoka", sans-serif;
+font-weight:600;
+}
+
+.todo-container{
+    background-color: blue;
+}
+
+.add-task-el{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.inner-box{
+    margin-top: 30px;
+}
+
+#todo-input{
+    padding: 13.5px;
+    background-color: rgba(240, 248, 255, 0.721);
+    border: 1px solid #060606;
+    color:black;
+    border-radius: 5px; /* Round edges */
+    outline: none;
+}
+
+#add-el-bttn{ 
+    /* height: 35px; */
+    width: 69px;
+    margin-left: 10px;
+    background-color: rgba(72, 6, 205, 0.936);
+    border: 2px solid #060606;
+    border-radius: 5px;
+    color:azure;
+    padding: 5px;
+    font-size: 18px;
+}
+ #todo-list {
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+   }
+   #todo-list li{
+    /* height:30px; */
+    background-color: #393636;
+    color: white;
+    padding: 10px;
+    width: 94%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 450;
+    font-size: 19px;
+
+   }
+ li button{
+    background-color: rgb(206, 20, 20);
+    border-radius: 7px;
+    border: 1px solid black;
+    text-align: center;
+    color:aliceblue;
+    font-family: "Fredoka", sans-serif;
+    font-size:16px;
+    height: 35px;
+    width: 65px;
+
+ }
+button{
+    cursor: pointer;
+}
